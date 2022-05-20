@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  border: 2px solid white;
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 10px 0;
+  padding: 8px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+.button:hover {
+  color: #282c34;
+  background: white;
+}
+
+.transitionPopup {
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  border: 1px solid white;
+  padding: 10px 35px;
+}
